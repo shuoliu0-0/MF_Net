@@ -1,0 +1,30 @@
+pretrain_models0: ./output/0best_model.pt
+pretrain_models1: ./output/1best_model.pt
+ligand:
+  node_feat_size: 36
+  edge_feat_size: 10  
+  fp_feat_size: 6338
+  motif_feat_size: 194  
+  motif_edge_size: 10
+  num_layers: 3
+  dropout: 0.25
+pocket:
+  atom_feature_dim: 36
+  res_feature_dim: 33
+  res_edge_dim: 7
+  atom_edge_dim: 10
+  block_num: 3
+  embedding_size: 33  #seq dim
+encoder:
+  name: schnet
+  hidden_channels: 128
+  edge_channels: 64
+  key_channels: 128
+  num_heads: 4
+  num_interactions: 6
+  cutoff: 10.0
+  knn: 32
+  num_filters: 128
+inter_graph:
+  outdim: 128
+  dropout: 0.4
