@@ -5,14 +5,14 @@
 
 * We propose a Multimodal Fusion Network (MF-Net) that hierarchically incorporates sequence-, atom-, and fragment-level representations to capture global, local, and functional interactions across multiple scales.
 
-![Multimodal Fusion Network](images/fig1.png)
+![Multimodal Fusion Network](images/fig1.jpg)
 
 
 ## Dataset
 The PDBbind v2016 and CASF-2016 datasets are downloaded from https://www.pdbbind.org.cn/. The complete DUD-E benchmarking set is available at http://dude.docking.org. And LIT-PCBA is available at http://drugdesign.unistra.fr/LIT-PCBA. The constructed 3D kinase-drug binding affinity datasets, 3DKKIBA, is available at https://github.com/Yanara-Tian/MMCLKin/tree/main/datasets/3DKKIBA.
 
 ## Environment
-* base dependencies:
+* Base dependencies:
 ```
   - numpy == 1.21.5
   - rdkit == 2018.03.4
@@ -25,7 +25,7 @@ The PDBbind v2016 and CASF-2016 datasets are downloaded from https://www.pdbbind
 ## Usage
 
 ### Process data
-Extracting the features of PDBBind v2016 and CASF-2016 datasets.
+* Extracting the features of PDBBind v2016 and CASF-2016 datasets.
 ```bash
 python data/process.py
 ```
@@ -47,7 +47,7 @@ python run_train.py
 
 ### Reproduce Results
 #### Binding affinity prediction
-Predictive performance of binding affinity on the PDBBind v2016 dataset.
+* Predictive performance of binding affinity on the PDBBind v2016 dataset.
 ```bash
 python run_test.py
 ```
