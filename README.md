@@ -1,15 +1,15 @@
 # MF_Net
 
 ## Introduction
-* Source code for the paper "A Multimodal Fusion Network Integrating Sequence, Atomic, and Fragment Representations for Accurate Drug–Target Affinity Prediction".
+* Source code for the paper "A Unified Multimodal Fusion Framework for Drug-Target Affinity Prediction: From Benchmark Performance to Nanomolar Lead Discovery".
 
 * We propose a Multimodal Fusion Network (MF-Net) that hierarchically incorporates sequence-, atom-, and fragment-level representations to capture global, local, and functional interactions across multiple scales.
 
-![Multimodal Fusion Network](images/fig1.jpg)
+![Multimodal Fusion Network](images/fig1.png)
 
 
 ## Dataset
-The PDBbind v2016 and CASF-2016 datasets are downloaded from https://www.pdbbind.org.cn/. The complete DUD-E benchmarking set is available at http://dude.docking.org. And LIT-PCBA is available at http://drugdesign.unistra.fr/LIT-PCBA. The constructed 3D kinase-drug binding affinity datasets, 3DKKIBA, is available at https://github.com/Yanara-Tian/MMCLKin/tree/main/datasets/3DKKIBA.
+The PDBbind v2016 and CASF-2016 datasets are downloaded from https://www.pdbbind-plus.org.cn/download. The complete DUD-E benchmarking set is available at http://dude.docking.org. And LIT-PCBA is available at http://drugdesign.unistra.fr/LIT-PCBA. The constructed 3D kinase-drug binding affinity datasets, 3DKKIBA, is available at https://github.com/Yanara-Tian/MMCLKin/tree/main/datasets/3DKKIBA.
 
 ## Environment
 * Base dependencies:
